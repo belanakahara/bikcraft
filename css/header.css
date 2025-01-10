@@ -1,0 +1,62 @@
+:root {
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c09: #404040;
+  --c08: #595959;
+  --c07: #717171;
+  --c06: #9c9c9c;
+  --c05: #b2b2b2;
+  --c04: #cccccc;
+  --c03: #dedede;
+  --c02: #ededed;
+  --c01: #f7f7f7;
+  --w: #ffffff;
+  --p05: #332200;
+  --p04: #664400;
+  --p03: #a66f00;
+  --p02: #e4a30b;
+  --p01: #ffbb00;
+  --tipografia-01: 'poppins',Arial
+}
+
+header {
+  background-color: var(--c12);
+}
+
+.header {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  /* align-items: center; */
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: var(--w);
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+
+@media (max-width:800px){
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header a {
+    border-right: 1px solid var(--c10) ;
+    border-left: 1px solid var(--c10) ;
+  }
+}
