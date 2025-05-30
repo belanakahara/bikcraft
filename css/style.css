@@ -1,2 +1,11 @@
-@import "./header.css";
-@import "./global.css";
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/introducao.css";
+@import "./utilidades/tipografia.css";
+
+/* componentes */
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+
+/* home */
+@import "./home/introducao.css";

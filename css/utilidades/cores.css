@@ -1,0 +1,77 @@
+:root {
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c09: #404040;
+  --c08: #595959;
+  --c07: #717171;
+  --c06: #9c9c9c;
+  --c05: #b2b2b2;
+  --c04: #cccccc;
+  --c03: #dedede;
+  --c02: #ededed;
+  --c01: #f7f7f7;
+    --w: #ffffff;
+  --p05: #332200;
+  --p04: #664400;
+  --p03: #a66f00;
+  --p02: #e4a30b;
+  --p01: #ffbb00;
+  --tipografia-01: 'poppins',Arial
+}
+
+
+.cor-1 {
+  color: var(--c01);
+}
+.cor-2 {
+  color: var(--c02);
+}
+.cor-3 {
+  color: var(--c03);
+}
+.cor-4 {
+  color: var(--c04);
+}
+.cor-5 {
+  color: var(--c05);
+}
+.cor-6 {
+  color: var(--c06);
+}
+.cor-7 {
+  color: var(--c07);
+}
+.cor-8 {
+  color: var(--c08);
+}
+.cor-9 {
+  color: var(--c09);
+}
+.cor-10 {
+  color: var(--c010);
+}
+.cor-11 {
+  color: var(--c11);
+}
+.cor-12 {
+  color: var(--c12);
+}
+.cor-w {
+  color: var(--w);
+}
+.cor-p1 {
+  color: var(--p01);
+}
+.cor-p2 {
+  color: var(--p02);
+}
+.cor-p3 {
+  color: var(--p03);
+}
+.cor-p4 {
+  color: var(--p04);
+}
+.cor-p5 {
+  color: var(--p05);
+}
