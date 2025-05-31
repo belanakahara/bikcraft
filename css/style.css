@@ -1,7 +1,9 @@
 @import "./global/global.css";
 @import "./global/header.css";
-@import "./global/introducao.css";
+@import "./global/home/introducao.css";
 @import "./utilidades/tipografia.css";
+@import "./global/bicicletas/bicicletas-lista.css";
+
 
 /* componentes */
 @import "./utilidades/componentes.css";
