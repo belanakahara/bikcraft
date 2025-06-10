@@ -3,7 +3,8 @@
 @import "./global/home/introducao.css";
 @import "./utilidades/tipografia.css";
 @import "./global/bicicletas/bicicletas-lista.css";
-@import "./global/tecnologia.css";
+@import "./global/home/tecnologia.css";
+@import "./global/home/parceiros.css";
 
 
 
