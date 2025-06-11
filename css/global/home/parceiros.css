@@ -5,7 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
-  margin-bottom: 1200px;
+  margin-bottom: 120px;
 }
 
 .parceiros h1 {
@@ -30,12 +30,12 @@
   margin: auto;
 }
 
-.parceiros li:first-child,
-.parceiros li:nth-child(5) {
+.parceiros li:first-child, /*primeiro item*/
+.parceiros li:nth-child(5) { /*somente quinto item*/
   border-left: none;
 }
 
-.parceiros li:nth-child(n + 5) {
+.parceiros li:nth-child(n + 5) { /*a partir do 5*/
   border-top: 2px solid var(--c02);
 }
 
@@ -43,13 +43,17 @@
   .parceiros {
     padding-bottom: 60px;
   }
+  .parceiros li {
+  display: flex;
+  padding: 28px;
+  }
   .parceiros h1 {
     margin-bottom: 20px;
   }
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
   }
-  .parceiros li:nth-child(n + 3) {
+  .parceiros li:nth-child(n + 3) { /*a partir do 3*/
   border-top: 2px solid var(--c02);
 }
   .parceiros li:nth-child(odd) { /*odd impar*/
