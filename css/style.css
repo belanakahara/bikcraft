@@ -8,8 +8,13 @@
 @import "./global/home/depoimento.css";
 @import "./global/seguros/seguro.css";
 @import "./global/home/footer.css";
+@import "./global/home/seguros.css";
+
 
 @import "./global/termosecondicoes/termosecondicoes.css";
+@import "./global/bicicletas/bicicletas.css";
+@import "./global/seguros/vantagens.css";
+@import "./global/seguros/perguntas.css";
 
 
 
